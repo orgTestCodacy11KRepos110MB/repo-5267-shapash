@@ -2538,7 +2538,7 @@ class SmartApp:
                                                 },
                                                 value=lower_value,
                                                 type="number",
-                                                style={'width': '60px'}),
+                                                style={'width': '50px'}),
                                             ' <= {} in [{}, {}]<= '.format(
                                                 value,
                                                 self.round_dataframe[value].min(),
@@ -2550,7 +2550,7 @@ class SmartApp:
                                                 },
                                                 value=upper_value,
                                                 type="number",
-                                                style={'width': '60px'}
+                                                style={'width': '50px'}
                                             )
                         ], style={'margin-left': '20px'})
                 else:
